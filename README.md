@@ -43,7 +43,7 @@ The line below is how you are able to add new pages to the intro. At the moment 
 ```swift     
     //Add the pages
     viewCon.addPage("First Page ", image: UIImage(named: "EmptyImage.png")!, content: "This is new content that should be displayed under the picture.")
-}
+
 ```
 
 <!-- 
