@@ -18,7 +18,7 @@ Then copy the code below and paste where you would like the intro to be shown. T
 let userDefaults = NSUserDefaults.standardUserDefaults()
         
         let userDefaults = NSUserDefaults.standardUserDefaults()
-        if !userDefaults.boolForKey("walkthroughPresentede") {
+        if !userDefaults.boolForKey("walkthroughPresented") {
             let introView = TSIntroViewController()
             //Show the tutorial
             //The current viewController you are presenting from needs to be within navigation controller
