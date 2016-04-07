@@ -6,18 +6,14 @@ This allows you to drag in a folder and instantly have an app intro.
 
 ## Installation
 
-### Carthage
-
-`RazzleDazzle` is available through [Carthage](https://github.com/Carthage/Carthage). To install
-it, simply add the following line to your `Cartfile`:
 
 
+### Installation
 
-### Interpolatable Types
 
-`RazzleDazzle` can animate any type that conforms to the `Interpolatable` protocol. It comes pre-cooked to support animating `CGFloats`, `CGPoints`, `CGSizes`, `CGRects`, and `UIColors`.
+To install download the repo and drag the Intro folder into your project. 
 
-If the property you'd like to animate is of a different type, just extend that type to conform to `Interpolatable` by adding a static function `interpolateFrom(fromValue: toValue: withProgress:)` that returns an instance of that type between two other instances of the same type.
+Then all you have to do is paste the code below into your view controller
 
 ```swift
 let userDefaults = NSUserDefaults.standardUserDefaults()
