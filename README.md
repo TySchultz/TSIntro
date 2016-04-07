@@ -7,9 +7,9 @@ This allows you to drag in a folder and instantly have an app intro.
 ### Installation
 
 
-To install download the repo and drag the Intro folder into your project. 
+To install drag the Intro folder into your current project. 
 
-Then all you have to do is paste the code below into your view controller
+Then copy the code below and paste where you would like the intro to be shown. The view controller you are presenting from must be inside a UINavigationController for the intro to be presented. 
 
 ```swift
 let userDefaults = NSUserDefaults.standardUserDefaults()
@@ -30,6 +30,16 @@ let userDefaults = NSUserDefaults.standardUserDefaults()
             userDefaults.setBool(true, forKey: "walkthroughPresented")
             userDefaults.synchronize()
         }
+}
+```
+
+### Adding Pages 
+
+The line below is how you are able to add new pages to the intro. At the moment you are easily able to change the title, image, and content.
+
+```swift     
+    //Add the pages
+    viewCon.addPage("First Page ", image: UIImage(named: "EmptyImage.png")!, content: "This is new content that should be displayed under the picture.")
 }
 ```
 
