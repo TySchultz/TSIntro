@@ -15,19 +15,17 @@ class ViewController: UIViewController {
         
         
         let userDefaults = NSUserDefaults.standardUserDefaults()
-        
         if !userDefaults.boolForKey("walkthroughPresentede") {
-            
-            let viewCon = TSIntroViewController()
+            let introView = TSIntroViewController()
             //Show the tutorial
             //The current viewController you are presenting from needs to be within navigation controller
-            self.presentViewController(viewCon, animated: true, completion: nil )
+            self.presentViewController(introView, animated: true, completion: nil )
             //Change the background of the tutorial
-            viewCon.view.backgroundColor = UIColor.whiteColor()
+            introView.view.backgroundColor = UIColor.whiteColor()
             //Add the pages
-            viewCon.addPage("First Page ", image: UIImage(named: "emptyImage.png")!, content: "This is new content that should be displayed under the picture.")
-            viewCon.addPage("Second Page", image: UIImage(named: "emptyImage.png")!, content: "This is new content that should be displayed under the picture.")
-            viewCon.addPage("Last Page  ", image: UIImage(named: "emptyImage.png")!, content: "This is new content that should be displayed under the picture.")
+            introView.addPage("First Page ", image: UIImage(named: "emptyImage.png")!, content: "This is new content that should be displayed under the picture.")
+            introView.addPage("Second Page", image: UIImage(named: "emptyImage.png")!, content: "This is new content that should be displayed under the picture.")
+            introView.addPage("Last Page  ", image: UIImage(named: "emptyImage.png")!, content: "This is new content that should be displayed under the picture.")
             
             userDefaults.setBool(true, forKey: "walkthroughPresented")
             userDefaults.synchronize()
