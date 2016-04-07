@@ -25,9 +25,9 @@ class ViewController: UIViewController {
             //Change the background of the tutorial
             viewCon.view.backgroundColor = UIColor.whiteColor()
             //Add the pages
-            viewCon.addPage("First Page ", image: UIImage(named: "EmptyImage.png")!, content: "This is new content that should be displayed under the picture.")
-            viewCon.addPage("Second Page", image: UIImage(named: "EmptyImage.png")!, content: "This is new content that should be displayed under the picture.")
-            viewCon.addPage("Last Page  ", image: UIImage(named: "EmptyImage.png")!, content: "This is new content that should be displayed under the picture.")
+            viewCon.addPage("First Page ", image: UIImage(named: "emptyImage.png")!, content: "This is new content that should be displayed under the picture.")
+            viewCon.addPage("Second Page", image: UIImage(named: "emptyImage.png")!, content: "This is new content that should be displayed under the picture.")
+            viewCon.addPage("Last Page  ", image: UIImage(named: "emptyImage.png")!, content: "This is new content that should be displayed under the picture.")
             
             userDefaults.setBool(true, forKey: "walkthroughPresented")
             userDefaults.synchronize()
