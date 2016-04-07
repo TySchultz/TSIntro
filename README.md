@@ -1,25 +1,8 @@
 
 
-[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage) [![CocoaPods Version](https://img.shields.io/cocoapods/v/RazzleDazzle.svg)](http://cocoadocs.org/docsets/RazzleDazzle)
-
-`RazzleDazzle` is a simple AutoLayout-friendly keyframe animation framework for iOS, written in Swift. Perfect for scrolling app intros.
-
-![RazzleDazzle](./Example/Docs/razzledazzle-demo.gif)
-
-`RazzleDazzle	` grew from [`JazzHands`](https://github.com/IFTTT/JazzHands), an Objective-C scrolling keyframe animations library by IFTTT.
-
-[`JazzHands`](https://github.com/IFTTT/JazzHands) is used extensively in [IF and DO for iPhone and iPad](https://ifttt.com/products), most famously in the app intro.
-
-## What's `RazzleDazzle` for?
-### Scrolling App Intro Animations
-`RazzleDazzle` is the easiest way to add scrollview-powered animations to the app intro of your Swift app. If you're adding a scrolling intro to your Objective-C app, check out [`JazzHands`](https://github.com/IFTTT/JazzHands)!
-
-For some examples of how [`JazzHands`](https://github.com/IFTTT/JazzHands) and `RazzleDazzle` can be used in practice, check out the intros of both [IF and DO for iPhone and iPad](https://ifttt.com/products), as well as the scrolling animations of the buttons in the DO apps by IFTTT.
-
-### Easy Paging Scrollview Layouts in an AutoLayout World
-`RazzleDazzle`'s `keep(view: onPage:)` function of the `AnimatedPagingScrollViewController` is a super easy way to lay out a paging scroll view that does what you expect it to when your app is rotated or used in the new split-screen iPad views of iOS9, a notoriously tricky aspect of getting your apps fully AutoLayout-ready. `RazzleDazzle` sets up an AutoLayout-friendly paging scroll view controller for you, and all you need to do to make your layout respond properly to any view size changes is tell `RazzleDazzle` which page you'd like things on.
-
-As a bonus, because it's built on top of the animations library, you can even tell `RazzleDazzle` that you'd like one of your views to show up on multiple pages while other views scroll past, with a single call to `keep(view: onPages:)`.
+## TSIntro?
+### Basic Scrolling App Intro
+This allows you to drag in a folder and instantly have an app intro.
 
 ## Installation
 
