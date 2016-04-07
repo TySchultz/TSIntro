@@ -48,7 +48,7 @@ class TSIntroViewController: UIViewController, UIScrollViewDelegate {
         
         var count                 = 0
         let width                 = self.view.frame.width
-        let scrollSpeed : CGFloat = 2.0// divide by 2 to slow down the scrolling
+        let scrollSpeed : CGFloat = 1.0// change to 2 to slow down the scrolling
         for page in scroll.pages{
             //Creates the same offset for each page so scrolling is consistent
             let offset = (scroll.contentOffset.x - (CGFloat(count) * width)) / scrollSpeed
