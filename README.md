@@ -4,7 +4,8 @@
 ### Basic Scrolling App Intro
 This allows you to drag in a folder and instantly have an app intro.
 
-./TSIntro.gif
+
+![Alt text](/TSIntro.gif?raw=true "TSIntro.gif")
 
 ### Installation
 
