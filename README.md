@@ -14,7 +14,7 @@ Then copy the code below and paste where you would like the intro to be shown. T
 ```swift
 let userDefaults = NSUserDefaults.standardUserDefaults()
         
-        if !userDefaults.boolForKey("walkthroughPresentede") {
+        if !userDefaults.boolForKey("walkthroughPresented") {
             
             let viewCon = TSIntroViewController()
             //Show the tutorial
