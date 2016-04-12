@@ -15,8 +15,7 @@ To install drag the Intro folder into your current project.
 Then copy the code below and paste where you would like the intro to be shown. The view controller you are presenting from must be inside a UINavigationController for the intro to be presented. 
 
 ```swift
-let userDefaults = NSUserDefaults.standardUserDefaults()
-        
+
         let userDefaults = NSUserDefaults.standardUserDefaults()
         if !userDefaults.boolForKey("walkthroughPresented") {
             let introView = TSIntroViewController()
