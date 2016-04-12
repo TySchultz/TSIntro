@@ -2,7 +2,7 @@
 
 ## TSIntro
 ### Basic Scrolling App Intro
-This allows you to drag in a folder and instantly have an app intro.
+This allows you to drag in a few files and instantly have an app intro.
 
 
 ![Alt text](/TSIntro.gif?raw=true "TSIntro.gif")
@@ -10,9 +10,11 @@ This allows you to drag in a folder and instantly have an app intro.
 ### Installation
 
 
-To install drag the Intro folder into your current project. 
+To install drag the contents of the intro folder into your current project. 
 
 Then copy the code below and paste where you would like the intro to be shown. The view controller you are presenting from must be inside a UINavigationController for the intro to be presented. 
+
+Normally this code will be put in your viewDidLoad() method when the viewcontroller first initializes. This will present the tutorial when the view first appears. 
 
 ```swift
 
