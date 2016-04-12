@@ -33,7 +33,7 @@ let userDefaults = NSUserDefaults.standardUserDefaults()
             userDefaults.setBool(true, forKey: "walkthroughPresented")
             userDefaults.synchronize()
         }
-}
+
 ```
 
 ### Adding Pages 
